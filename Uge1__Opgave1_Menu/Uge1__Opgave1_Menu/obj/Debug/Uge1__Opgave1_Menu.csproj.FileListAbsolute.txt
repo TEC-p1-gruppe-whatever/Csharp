@@ -1,0 +1,7 @@
+D:\C#\Hovedforloeb_P1\Uge1__Opgave1_Menu\Uge1__Opgave1_Menu\bin\Debug\Uge1__Opgave1_Menu.exe.config
+D:\C#\Hovedforloeb_P1\Uge1__Opgave1_Menu\Uge1__Opgave1_Menu\bin\Debug\Uge1__Opgave1_Menu.exe
+D:\C#\Hovedforloeb_P1\Uge1__Opgave1_Menu\Uge1__Opgave1_Menu\bin\Debug\Uge1__Opgave1_Menu.pdb
+D:\C#\Hovedforloeb_P1\Uge1__Opgave1_Menu\Uge1__Opgave1_Menu\obj\Debug\Uge1__Opgave1_Menu.csprojAssemblyReference.cache
+D:\C#\Hovedforloeb_P1\Uge1__Opgave1_Menu\Uge1__Opgave1_Menu\obj\Debug\Uge1__Opgave1_Menu.csproj.CoreCompileInputs.cache
+D:\C#\Hovedforloeb_P1\Uge1__Opgave1_Menu\Uge1__Opgave1_Menu\obj\Debug\Uge1__Opgave1_Menu.exe
+D:\C#\Hovedforloeb_P1\Uge1__Opgave1_Menu\Uge1__Opgave1_Menu\obj\Debug\Uge1__Opgave1_Menu.pdb
