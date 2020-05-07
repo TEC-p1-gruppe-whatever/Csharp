@@ -55,6 +55,8 @@
     <Compile Include="StringOpgaver.cs" />
     <Compile Include="StringSubmenu.cs" />
     <Compile Include="SwitchCaseFull.cs" />
+    <Compile Include="UdvidetKontrolstrukturOpgaver.cs" />
+    <Compile Include="UdvidetKontrolstrukturSubmenu.cs" />
     <Compile Include="VariableOpgaver.cs" />
     <Compile Include="VariablerUdtrykOpgaver.cs" />
     <Compile Include="VariablerUdtrykSubmenu.cs" />

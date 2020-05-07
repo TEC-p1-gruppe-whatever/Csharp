@@ -25,6 +25,7 @@ namespace Uge1__Opgave1_Menu
                 IfElseSubmenu IfElseMenu = new IfElseSubmenu(); // Skaber en genvej til menuen for if else statements
                 SwitchCaseFull SwitchCaseMenu = new SwitchCaseFull(); // Opretter en genvej for menuen for switch case
                 LoopsSubmenu LoopMenu = new LoopsSubmenu(); // Opretter en genveh til menuen for loops
+                UdvidetKontrolstrukturSubmenu UdvidetStrukturMenu = new UdvidetKontrolstrukturSubmenu(); // Opretter en genvej for menuen for udvidet kontrolstruktur
 
 
 
@@ -58,12 +59,16 @@ namespace Uge1__Opgave1_Menu
                         IfElseMenu.IfElsekHovedmenu();
                         continue;
 
-                    case 'C':
+                    case 'C': //Kategori for Switch Statements
                         SwitchCaseMenu.SwitchCaseHovedmenu();
                         continue;
 
-                    case 'L':
+                    case 'L': //Kategori for loops
                         LoopMenu.LoopHovedmenu();
+                        continue;
+
+                    case 'U': //Kategori for Udvidet kontrolstruktur
+                        UdvidetStrukturMenu.UdvidetKontrolstrukturHovedmenu();
                         continue;
 
                     case 'Q':
