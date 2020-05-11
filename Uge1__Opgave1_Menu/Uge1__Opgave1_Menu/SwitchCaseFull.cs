@@ -11,7 +11,7 @@ namespace Uge1__Opgave1_Menu
     {
         public void SwitchCaseHovedmenuTekst()
         {
-            Console.WriteLine("Velkommen til Swithc Case submenuen, her kan du se opgaven vedlagt i kategorien Swithc Case."); //Udskriver information omkring menuen
+            Console.WriteLine("Velkommen til Swithc Case submenuen, her kan du se opgaven vedlagt i kategorien Switch Case."); //Udskriver information omkring menuen
             Console.WriteLine("1: \t Opgave 1");
             Console.WriteLine("2. \t Opgave 2");
             Console.WriteLine("q: \t Til hovedmenu");

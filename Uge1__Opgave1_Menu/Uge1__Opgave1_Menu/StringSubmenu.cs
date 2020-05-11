@@ -10,7 +10,7 @@ namespace Uge1__Opgave1_Menu
     {
         public void StringHovedmenuTekst()
         { //Udskriver tekst til brugeren, om den valgte menu
-            Console.WriteLine("Velkommen til string submenuen, her kan du se opgaver vedlagt i kategorien variabler.");
+            Console.WriteLine("Velkommen til string submenuen, her kan du se opgaver vedlagt i kategorien strings.");
             Console.WriteLine("1: \t Opgave 1");
             Console.WriteLine("2: \t Opgave 2");
             Console.WriteLine("3: \t Opgave 3");
@@ -27,6 +27,7 @@ namespace Uge1__Opgave1_Menu
             string InputQuit; // Opretter variable til at modtage brugerens input, hvis det er et bogstav, for at kontrollere om brugeren oensker at afslutte
             do
             {
+                StringHovedmenuTekst();
                 ConsoleKeyInfo SubmenuSelection = Console.ReadKey(); // Modtager brugerens indtastning
                 // Kontrollere om brugerens indtastning er et tal, hvis det er koere if saetningen
                 if (Char.IsDigit(SubmenuSelection.KeyChar))
@@ -55,13 +56,12 @@ namespace Uge1__Opgave1_Menu
         }
         public void StringHovedmenu()
         {
-            bool MenuFaerdig = false;
+            bool MenuFaerdig;
             do
             {
 
                 StringOpgaver Opgaver = new StringOpgaver();
                 Console.Clear();
-                StringHovedmenuTekst();
                 var (InputSelected, MenuFaerdigSub) = SubmenuStringSelection(); // Kalder metode, til at modtage brugerens indtastninger
                 MenuFaerdig = MenuFaerdigSub; // opdateres om hvorvidt brugeren oensker at afslutte menuen
                 // Switch case til at koere brugerens valgte opgave.

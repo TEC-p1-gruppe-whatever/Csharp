@@ -13,7 +13,6 @@ namespace Uge1__Opgave1_Menu
         static void Main(string[] args)
         {
             bool EndCode = false;
-            char InputSelectedApproved;
             do
             {
               MainMenu Hovedmenu = new MainMenu(); // Skaber en genvej for metoden for hovedmenuen
@@ -30,7 +29,7 @@ namespace Uge1__Opgave1_Menu
 
 
                 Hovedmenu.MenuTekst(); // Kalder paa metoden for tekst til hovedmenu
-               int InputSelected = Hovedmenu.MenuInput(); // Kalder paa metoden for valg af kategori i hovedmenuen
+               char InputSelected = Hovedmenu.MenuInput(); // Kalder paa metoden for valg af kategori i hovedmenuen
                 Console.WriteLine(InputSelected);
                 // Switch case til at udfoere brugerens valgt kode.
                 switch (InputSelected)

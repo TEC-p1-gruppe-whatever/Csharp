@@ -18,12 +18,13 @@ namespace Uge1__Opgave1_Menu
             Console.WriteLine("B: \t Boolske variabler");
             Console.WriteLine("I: \t If-else statements");
             Console.WriteLine("C: \t Switch Case");
+            Console.WriteLine("L: \t If Else");
+            Console.WriteLine("U: \t Udvidet Kontrolstruktur");
             Console.WriteLine("q: \t For at afslutte");
         }
         //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
         public char MenuInput()
         {
-            bool EndCode = false;
             bool InputApproved = false; // Variable til at indikere om brugerens indtastning er gyldig
             char InputSelected = 'k'; // variabel til at indikere brugerens indtastning, allerede angivet, for at sikre at der altid returneres noget, for at koden ikke bryder sammen.
             do
@@ -88,7 +89,6 @@ namespace Uge1__Opgave1_Menu
                     case 'Q':
                     case 'q':
                         InputApproved = true;
-                        EndCode = true;
                         InputSelected = 'Q';
                         break;
 

@@ -30,6 +30,7 @@ namespace Uge1__Opgave1_Menu
             string InputQuit; // Opretter variable til at modtage brugerens input, hvis det er et bogstav, for at kontrollere om brugeren oensker at afslutte
             do
             {
+                IfElseHovedmenuTekst();
                 ConsoleKeyInfo SubmenuSelection = Console.ReadKey(); // Modtager brugerens indtastning
                 // Kontrollere om brugerens indtastning er et tal, hvis det er koere if saetningen
                 if (Char.IsDigit(SubmenuSelection.KeyChar))
@@ -64,7 +65,6 @@ namespace Uge1__Opgave1_Menu
 
                 IfElseOpgaver Opgaver = new IfElseOpgaver();
                 Console.Clear();
-                IfElseHovedmenuTekst();
                 var (InputSelected, MenuFaerdigSub) = SubmenuIfElseSelection(); // Kalder metode, til at modtage brugerens indtastninger
                 MenuFaerdig = MenuFaerdigSub; // opdateres om hvorvidt brugeren oensker at afslutte menuen
                 // Switch case til at koere brugerens valgte opgave.
