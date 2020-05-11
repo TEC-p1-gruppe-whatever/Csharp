@@ -1,0 +1,7 @@
+D:\C#\Hovedforloeb_P1\Arrays\Arrays\bin\Debug\Arrays.exe.config
+D:\C#\Hovedforloeb_P1\Arrays\Arrays\bin\Debug\Arrays.exe
+D:\C#\Hovedforloeb_P1\Arrays\Arrays\bin\Debug\Arrays.pdb
+D:\C#\Hovedforloeb_P1\Arrays\Arrays\obj\Debug\Arrays.csprojAssemblyReference.cache
+D:\C#\Hovedforloeb_P1\Arrays\Arrays\obj\Debug\Arrays.csproj.CoreCompileInputs.cache
+D:\C#\Hovedforloeb_P1\Arrays\Arrays\obj\Debug\Arrays.exe
+D:\C#\Hovedforloeb_P1\Arrays\Arrays\obj\Debug\Arrays.pdb
