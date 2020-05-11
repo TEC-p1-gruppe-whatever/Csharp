@@ -1,0 +1,7 @@
+D:\C#\Hovedforloeb_P1\Bøger\Bøger\bin\Debug\Bøger.exe.config
+D:\C#\Hovedforloeb_P1\Bøger\Bøger\bin\Debug\Bøger.exe
+D:\C#\Hovedforloeb_P1\Bøger\Bøger\bin\Debug\Bøger.pdb
+D:\C#\Hovedforloeb_P1\Bøger\Bøger\obj\Debug\Bøger.csprojAssemblyReference.cache
+D:\C#\Hovedforloeb_P1\Bøger\Bøger\obj\Debug\Bøger.csproj.CoreCompileInputs.cache
+D:\C#\Hovedforloeb_P1\Bøger\Bøger\obj\Debug\Bøger.exe
+D:\C#\Hovedforloeb_P1\Bøger\Bøger\obj\Debug\Bøger.pdb
